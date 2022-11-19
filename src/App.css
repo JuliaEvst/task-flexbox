@@ -4,3 +4,26 @@ body,
     height: 100%;
     margin: 0;
 }
+.flex-container {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: baseline;
+}
+div {
+    background: #daa520;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+div:nth-child(3) {
+    align-self: flex-end;
+}
+div:nth-child(2) {
+    align-self: center;
+}
+div:nth-child(4) {
+    align-self: center;
+}
